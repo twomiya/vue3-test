@@ -47,7 +47,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - target 目前页面中的响应变量和函数
 
 * vue2和vue3对比
-
+```
 Vue2--------------vue3
 
 beforeCreate  -> setup()
@@ -71,7 +71,7 @@ activated     -> onActivated
 deactivated   -> onDeactivated
 
 errorCaptured -> onErrorCaptured
-
+```
 * watch： 监听器(侦听器),作用是用来侦测响应式数据的变化
 * 模块化
 * teleport函数： 瞬间移动函数的使用
