@@ -49,16 +49,27 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * vue2和vue3对比
 
 Vue2--------------vue3
+
 beforeCreate  -> setup()
+
 created       -> setup()
+
 beforeMount   -> onBeforeMount
+
 mounted       -> onMounted
+
 beforeUpdate  -> onBeforeUpdate
+
 updated       -> onUpdated
+
 beforeDestroy -> onBeforeUnmount
+
 destroyed     -> onUnmounted
+
 activated     -> onActivated
+
 deactivated   -> onDeactivated
+
 errorCaptured -> onErrorCaptured
 
 * watch： 监听器(侦听器),作用是用来侦测响应式数据的变化
